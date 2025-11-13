@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+.conteneur-page{
+    padding-top: 65px;
+}
+.conteneur-page>div {
+    background-color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+abbr{
+    text-decoration: none;
+}
+h1, h3,p{
+    margin: 0;
+}
+h1,h3{
+    text-transform:capitalize ;
+}
+article p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:5px ;
+}
+.conteneur-page>section{
+    text-align: justify;
+    flex: 1;
+    padding: 20px 30px;
+    width: 70%;
+    margin:10px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+article{
+    margin: 10px 0px;
+}
+.conteneur-page ul{
+    list-style-type:disc;
+    border-top: 1px solid black;
+    padding-left: 16px;
+}

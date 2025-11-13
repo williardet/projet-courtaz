@@ -1,0 +1,117 @@
+body{
+    background-color: #F1C1A5;
+}
+p{
+    margin: 0;
+}
+.conteneur-page{
+    padding-top: 100px;
+}
+#conteneur{
+    flex: 1;
+    margin:auto;
+    height: max-content;
+    width: 75%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 30px 20px 20px;
+}
+#conteneur>section>h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#conteneur>section>p{
+    text-align: justify;
+}
+#conteneur>section>section{
+    width: 100%;
+    height: max-content;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: black;
+    margin-top: 10px;
+    
+}
+#conteneur>section>section>section{
+    height: max-content;
+    margin: 10px 0;
+    background-color: #F1C1A5;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.double{
+    padding:10px;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid;
+}
+#double{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.colonne{
+    width: 85%;
+    height: max-content;
+}
+.colonne>p{
+    color: white;
+    text-align: justify;
+}
+.colonne>section{
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 12px;
+    margin: 0;
+}
+.colonne>section>article>p{
+    border-top: 1px solid;
+}
+.carré{
+    word-break: break-word;
+    text-align: center;
+    font-size: 12px;
+    width: 10%;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #7F2221;
+    background-color: white;
+    font-weight: 600;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.carré>a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    display: block;
+}
+#bg-foncé{
+    background-color: #7F2221;
+}
+#triple-images{
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    align-self: center;
+    width: 40%;
+    padding-right: 10px;
+
+}
+#triple-images>img{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 30%;
+    align-self: center;
+
+}
+#double>div{
+    text-align: justify;
+    width: 60%;
+    
+}
