@@ -13,7 +13,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000;
-    background-color: #7F2221;
+    background-color:  #577042;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -24,7 +24,7 @@ header {
 
 header>#logo {
     width: 20%;
-    background-color: #F1C1A5;
+    background-color: #ffffff;
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 60% 100%);
     align-content: center;
     
@@ -33,7 +33,7 @@ header>#logo {
 header>#logo>div {
     height: 80%;
     width: 20%;
-    background-color: white;
+    background-color: #577042;
     margin-left: 30%;
     border-radius: 100%;    
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
@@ -42,7 +42,7 @@ header>#logo>div {
 
 header>#vide {
     width: 20%;
-    background-color:  #F1C1A5;
+    background-color:  #ffffff;
     clip-path: polygon(0% 100%, 40% 0%, 100% 0%, 100% 100%);
 }
 
@@ -78,7 +78,7 @@ nav>ul>li>a:hover{
     background-color:white ;
     font-size: 18px;
     font-weight: 600;
-    color: #7F2221;
+    color: #245530;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
@@ -88,7 +88,7 @@ nav>ul>li>a:hover{
     background-color:white ;
     font-size: 18px;
     font-weight: 600;
-    color: #7F2221;
+    color: #245530;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
@@ -103,12 +103,16 @@ nav>ul>li>a:hover{
 /*css pour footer*/
 footer{
     margin-top: 20px;
-    background-color: #7F2221;
+    background-color: #00000077;
     text-align: center;
     height: 30px;
     align-content: center;
 }
+#footer{
+    background-color: #38442d;
+}
 footer>p{
     font-size: 14px;
     margin: 0;
+    color: rgb(255, 255, 255);
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: #F1C1A5;
+    background-color: #577042;
 }
 h4 {
     text-decoration: underline;
@@ -12,7 +12,7 @@ h4 {
 }
 
 .conteneur-page>div {
-    background-color: #796153;
+    background-color: #00000063;
     height: 60px;
     text-transform: capitalize;
     text-align: center;

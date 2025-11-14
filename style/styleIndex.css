@@ -1,5 +1,5 @@
 body{
-    background-color: #F1C1A5;
+    background-color: #5A7247;
 }
 p{
     margin: 0;
@@ -35,7 +35,7 @@ p{
 #conteneur>section>section>section{
     height: max-content;
     margin: 10px 0;
-    background-color: #F1C1A5;
+    background-color: #ffffff;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -57,7 +57,7 @@ p{
     height: max-content;
 }
 .colonne>p{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
 }
 .colonne>section{
@@ -79,7 +79,7 @@ p{
     width: 10%;
     height: 80px;
     border-radius: 10px;
-    border: 1px solid #7F2221;
+    border: 2px solid  #6E8E6E;
     background-color: white;
     font-weight: 600;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -90,9 +90,6 @@ p{
     color: black;
     margin-top: 5px;
     display: block;
-}
-#bg-foncé{
-    background-color: #7F2221;
 }
 #triple-images{
     height: auto;

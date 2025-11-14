@@ -5,7 +5,7 @@ body{
     padding-top: 65px;
 }
 .conteneur-page>div {
-    background-color: #757575;
+    background-color: #577042fe;
     height: 70px;
     text-align: center;
     padding-top: 10px;
@@ -63,7 +63,7 @@ fieldset>div>label{
     font-weight: 600;
     text-transform: capitalize;
     color: white;
-    background-color: #7F2221;
+    background-color:#465d33;
     border: none;
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
