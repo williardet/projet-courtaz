@@ -1,11 +1,9 @@
-body{
-    background-color: #577042;
-}
+
 .conteneur-page{
     padding-top: 65px;
 }
 .conteneur-page>div {
-    background-color: #00000077;
+    background-color: #38442d;
     text-align: center;
     border-bottom: 1px solid black;
     padding: 10px 0px;
@@ -22,6 +20,7 @@ h1,h3{
 article p{
     font-family: 'Times New Roman', Times, serif;
     margin-top:5px ;
+    color: white;
 }
 .conteneur-page>section{
     text-align: justify;
@@ -29,7 +28,7 @@ article p{
     padding: 20px 30px;
     width: 70%;
     margin:10px auto;
-    background-color: white;
+    background-color: #577042;
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
